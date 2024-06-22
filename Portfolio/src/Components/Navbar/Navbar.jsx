@@ -1,4 +1,5 @@
 import React from "react";
+import './Navbar.css'
 
 function Navbar() {
   return (
@@ -8,8 +9,8 @@ function Navbar() {
         <span>toggle</span>
       </div>
       <div className="n-right">
-        <div className="m-list">
-          <ul>
+        <div className="n-list">
+          <ul style={{listStyleType: "none"}}>
             <li>Home</li>
             <li>Services</li>
             <li>Experience</li>
@@ -17,7 +18,7 @@ function Navbar() {
             <li>Testimonials</li>
           </ul>
         </div>
-        <button className="button">
+        <button className="button n-button">
             Contact us
         </button>
       </div>

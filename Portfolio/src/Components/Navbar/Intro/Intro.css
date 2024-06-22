@@ -1,0 +1,13 @@
+.intro{
+            display: flex;
+            height: 77vh;
+            margin: 6rem;
+}
+.i-left{
+            display: flex;
+            position: relative;
+            flex: 1;
+}
+.i-right{
+            flex: 1;
+}

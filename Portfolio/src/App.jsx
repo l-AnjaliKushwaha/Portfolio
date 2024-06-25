@@ -1,6 +1,8 @@
-import Navbar from "./Components/Navbar/Navbar"
-import Intro from "./Components/Navbar/Intro/Intro"
-import './index.css'
+import Navbar from './Components/Navbar/Navbar.jsx';
+import Intro from './Components/Intro/Intro.jsx';
+import Skills from './Components/Skills/Skills.jsx';
+import './index.css';
+
 
 function App() {
   
@@ -8,6 +10,7 @@ function App() {
     <div className="App">
       <Navbar></Navbar>
       <Intro></Intro>
+      <Skills></Skills>
     </div>
   )
 }

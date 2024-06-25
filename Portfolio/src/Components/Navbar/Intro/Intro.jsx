@@ -9,6 +9,7 @@ import girl from "../../../img/girl.png";
 import thumbup from '../../../img/thumbup.png';
 import Crown from '../../../img/crown.png';
 import glassesimoji from "../../../img/glassesimoji.png";
+import FloatingDiv from "../FloatingDiv/FloatingDiv.jsx";
 
 function Intro() {
   return (
@@ -39,8 +40,11 @@ function Intro() {
         <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
         <img src={girl} alt="" />
+        <div style={{top: '-6%', left: '80%'}}>
+          <FloatingDiv image={Crown} txt1='Web' txt2='Developer'/>
+        </div>
         <div>
-          <FloatingDiv/>
+          <FloatingDiv image={thumbup}/>
         </div>
       </div>
     </div>

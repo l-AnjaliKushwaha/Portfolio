@@ -4,6 +4,7 @@ import HeartEmoji from '../../img/heartemoji.png';
 import Glasses from '../../img/glasses.png';
 import Humble from '../../img/humble.png';
 import Card from '../Card/Card.jsx';
+import Resume from '../Skills/Anjali kushwaha-Resume.pdf';
 
 function Skills() {
   return (
@@ -16,10 +17,10 @@ function Skills() {
           HTML, CSS, JavaScript, React, Node.js, Express.js, MongoDB, <br />{" "}
           Tailwind CSS, GSAP, Framer Motion.
         </span>
-        <a href="">
+        <a href={Resume} download>
           <button className="button s-button">Download CV</button>
         </a>
-        <div className="blur s-blur" style={{ background: "#ABF1FF94" }}></div>
+        <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
       {/* right side */}
       <div className="cards">
@@ -50,6 +51,7 @@ function Skills() {
             }
           />
         </div>
+        <div className='blur s-blur2' style={{ background: "var(--purple)"}}></div>
       </div>
     </div>
   );

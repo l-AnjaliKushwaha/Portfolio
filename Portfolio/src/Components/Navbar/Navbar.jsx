@@ -13,9 +13,8 @@ function Navbar() {
           <ul style={{listStyleType: "none"}}>
             <li>Home</li>
             <li>Skills</li>
-            <li>Experience</li>
-            <li>Portfolio</li>
-            <li>Testimonials</li>
+            <li>About</li>
+            <li>Projects</li>
           </ul>
         </div>
         <button className="button n-button">

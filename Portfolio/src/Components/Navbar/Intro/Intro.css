@@ -2,6 +2,7 @@
             display: flex;
             height: 77vh;
             margin: 6rem;
+            /* gap: 5rem; */
 }
 .i-left{
             display: flex;
@@ -9,6 +10,7 @@
             flex: 1;
             flex-direction: column;
             gap: 2rem;
+            right: 10%;
 }
 .i-name{
             display: flex;
@@ -49,6 +51,33 @@
             cursor: pointer;
 
 }
+
+
 .i-right{
             flex: 1;
+            position: relative;
+}
+
+.i-right>*{
+            position: absolute;
+            z-index: 1;
+}
+.i-right>:nth-child(1){
+            transform: scale(0.90);
+            left: -15%;
+            top: -9%;
+}
+
+.i-right>:nth-child(2){
+            top: -4.6rem;
+            transform: scale(0.78);
+            left: -3rem;
+}
+
+.i-right>:nth-child(3){
+            transform: scale(0.6);
+            top: -30%;
+            left: -40%;
+          
+
 }

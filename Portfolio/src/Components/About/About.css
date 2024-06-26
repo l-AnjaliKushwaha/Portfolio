@@ -62,7 +62,8 @@
 .a-backCircle{
             position: absolute;
             height: 13rem;
-            width: 13rem;border-radius: 100%;
+            width: 13rem;
+            border-radius: 100%;
             z-index: -1;
 }
 .blueCircle{
@@ -75,3 +76,4 @@
             left: 18rem;
             top: 8rem;
 }
+

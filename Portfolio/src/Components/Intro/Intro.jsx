@@ -10,13 +10,18 @@ import Crown from "../../img/crown.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import FloatingDiv from "../FloatingDiv/FloatingDiv.jsx";
 import "./Intro.css";
+import { themeContext } from "../../../Context.jsx";
+import { useContext } from "react";
 
 function Intro() {
+   const theme = useContext(themeContext);
+   const darkMode = theme.state.darkMode;
+  
   return (
     <div className="intro">
       <div className="i-left">
         <div className="i-name">
-          <span>Hey! I am </span>
+          <span style={{color: darkMode? 'white': ''}}>Hey! I am </span>
           <span>Anjali Kushwaha</span>
           <span>
             A MERN Stack developer. Passionate about creating responsive web

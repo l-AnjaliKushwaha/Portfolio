@@ -13,12 +13,16 @@ import Project6 from "../../img/project6.png";
 import Project7 from "../../img/project7.png";
 import Project8 from "../../img/project8.png";
 import Project9 from "../../img/project9.png";
+import { themeContext } from "../../../Context";
+import { useContext } from "react";
 
 function Project() {
+   const theme = useContext(themeContext);
+   const darkMode = theme.state.darkMode;
   return (
     <div className="project">
       {/* heading */}
-      <span>Recent Projects</span>
+      <span style={{color: darkMode? 'white': ''}}>Recent Projects</span>
       <span>Portfolio</span>
 
       {/* slider */}

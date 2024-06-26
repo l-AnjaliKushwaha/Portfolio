@@ -1,19 +1,23 @@
-import React from 'react'
-import './About.css'
-import csspng from '../../img/css.png';
-import JsIcon from '../../img/jsIcon.png';
-import htmlpng from '../../img/html.png';
-import reactpng from '../../img/react.png';
-import nodepng from '../../img/node.png';
+import React from "react";
+import "./About.css";
+import csspng from "../../img/css.png";
+import JsIcon from "../../img/jsIcon.png";
+import htmlpng from "../../img/html.png";
+import reactpng from "../../img/react.png";
+import nodepng from "../../img/node.png";
+import { themeContext } from "../../../Context";
+import { useContext } from "react";
 
 function About() {
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
   return (
     <div className="about">
       {/* left side */}
       <div className="awesome">
-        <span>About Me</span>
+        <span style={{ color: darkMode ? "white" : "" }}>About Me</span>
         <span>MERN Stack Developer</span>
-        <span>
+        <span style={{ color: darkMode ? "white" : "" }}>
           I'm a MERN Stack Developer with a passion for <br /> building
           scalable, efficient, and user-friendly
         </span>
@@ -49,4 +53,4 @@ function About() {
   );
 }
 
-export default About
+export default About;

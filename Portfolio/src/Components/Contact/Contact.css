@@ -18,8 +18,8 @@
             align-items: center;
 }
 .c-right .user{
-            width: 20rem;
-            height: 2rem;
+            width: 25rem;
+            height: 2.5rem;
             padding: 0.3rem;
             outline: none;
             border: 2px solid var(--orange);
@@ -28,7 +28,7 @@
 }
 
 textarea{
-            height: 4rem !important;
+            height: 7rem !important;
 }
 .c-blur{
          top: 1rem;

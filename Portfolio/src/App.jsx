@@ -3,6 +3,7 @@ import Intro from './Components/Intro/Intro.jsx';
 import Skills from './Components/Skills/Skills.jsx';
 import Experince from './Components/Experince/Experince.jsx';
 import About from './Components/About/About.jsx';
+import Projects from './Components/Projects/Project.jsx';
 import './index.css';
 
 
@@ -15,6 +16,7 @@ function App() {
       <Skills></Skills>
       <Experince></Experince>
       <About></About>
+      <Projects></Projects>
     </div>
   )
 }

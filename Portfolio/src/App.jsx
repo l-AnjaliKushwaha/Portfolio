@@ -5,6 +5,7 @@ import Experince from './Components/Experince/Experince.jsx';
 import About from './Components/About/About.jsx';
 import Projects from './Components/Projects/Project.jsx';
 import Contact from './Components/Contact/Contact.jsx'
+import Footer from './Components/Footer/Footer.jsx'
 import './index.css';
 
 
@@ -19,6 +20,7 @@ function App() {
       <About></About>
       <Projects></Projects>
       <Contact></Contact>
+      <Footer></Footer>
     </div>
   )
 }

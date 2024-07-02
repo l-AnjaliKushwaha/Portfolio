@@ -7,6 +7,7 @@ import reactpng from "../../img/react.png";
 import nodepng from "../../img/node.png";
 import { themeContext } from "../../../Context";
 import { useContext } from "react";
+import { motion } from "framer-motion";
 
 function About() {
   const theme = useContext(themeContext);
@@ -27,7 +28,13 @@ function About() {
 
       {/* right side */}
       <div className="a-right">
-        <div className="a-mainCircle">
+        <motion.div
+          initial={{ rotate: 45 }}
+          whileInView={{ rotate: 0 }}
+          viewport={{ margin: "-40px" }}
+          transition={{ duration: 3.5, type: "spring" }}
+          className="a-mainCircle"
+        >
           <div className="a-secCircle">
             <img src={csspng} alt="" />
           </div>
@@ -43,7 +50,7 @@ function About() {
           <div className="a-secCircle">
             <img src={nodepng} alt="" />
           </div>
-        </div>
+        </motion.div>
         {/* background circles  */}
 
         <div className="a-backCircle blueCircle"></div>

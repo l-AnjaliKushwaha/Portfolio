@@ -7,6 +7,7 @@ import Card from '../Card/Card.jsx';
 import Resume from '../Skills/Anjali kushwaha-Resume.pdf';
 import { themeContext } from '../../../Context.jsx';
 import { useContext } from 'react';
+import { motion } from 'framer-motion';
 
 
 function Skills() {

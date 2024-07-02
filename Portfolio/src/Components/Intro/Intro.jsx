@@ -12,8 +12,12 @@ import FloatingDiv from "../FloatingDiv/FloatingDiv.jsx";
 import "./Intro.css";
 import { themeContext } from "../../../Context.jsx";
 import { useContext } from "react";
+import { motion } from "framer-motion";
 
 function Intro() {
+
+  const transition = { duration: 2, type: "spring" };
+
    const theme = useContext(themeContext);
    const darkMode = theme.state.darkMode;
   
@@ -45,13 +49,25 @@ function Intro() {
         <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
         <img src={girl} alt="" />
-        <img src={glassesimoji} alt="" />
-        <div style={{ top: "-6%", left: "80%" }}>
+        <motion.img
+        initial={{ left: "-36%" }}
+        whileInView={{ left: "-24%" }}
+        transition={transition}
+        src={glassesimoji} alt="" />
+        <motion.div 
+        initial={{ top: "-4%", left: "83%" }}
+        whileInView={{left: '75%'}}
+        transition={transition}
+        style={{ top: "-6%", left: "80%" }}>
           <FloatingDiv image={Crown} txt1="Web" txt2="Developer" />
-        </div>
-        <div style={{ top: "19rem", left: "-2rem" }}>
+        </motion.div>
+        <motion.div
+        initial={{ top: "20rem", left: "3rem" }}
+        whileInView={{left: '-3rem'}}
+        transition={transition}
+         style={{ top: "19rem", left: "-2rem" }}>
           <FloatingDiv image={thumbup} txt1="Best Design" txt2="Award" />
-        </div>
+        </motion.div>
         {/* blur divs */}
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
         <div className="blur" style={{ background: '#C1F5FF', top: '17rem', width: '21rem', height: '11rem', left: '-9rem'}}></div>

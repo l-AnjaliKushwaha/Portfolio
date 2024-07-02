@@ -15,7 +15,7 @@ function Skills() {
    const theme = useContext(themeContext);
    const darkMode = theme.state.darkMode;
   return (
-    <div className="skills">
+    <div className="skills" id='Skills'>
       {/* left side */}
       <div className="awesome">
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>

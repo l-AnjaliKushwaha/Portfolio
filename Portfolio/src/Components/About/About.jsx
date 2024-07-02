@@ -13,7 +13,7 @@ function About() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
-    <div className="about">
+    <div className="about" id="About">
       {/* left side */}
       <div className="awesome">
         <span style={{ color: darkMode ? "white" : "" }}>About Me</span>

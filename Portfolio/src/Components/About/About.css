@@ -77,3 +77,24 @@
             top: 8rem;
 }
 
+@media screen and (max-width: 480px) {
+            .about{
+                       flex-direction: column;
+                       height: 50rem;
+                       padding: 0;
+                       gap: 7rem;
+            }
+            .a-right{
+                        display: flex;
+                        align-items: flex-start;
+                        justify-content: start;
+                        transform: scale(0.7);
+                        margin-bottom: 0;
+            }
+            .a-mainCircle{
+                        position: static;
+            }
+            .a-backCircle{
+                        left: 8rem !important;
+            }
+}

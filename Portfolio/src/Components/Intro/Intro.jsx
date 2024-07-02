@@ -25,7 +25,7 @@ function Intro() {
     <div className="intro">
       <div className="i-left">
         <div className="i-name">
-          <span style={{color: darkMode? 'white': ''}}>Hey! I am </span>
+          <span style={{ color: darkMode ? "white" : "" }}>Hey! I am </span>
           <span>Anjali Kushwaha</span>
           <span>
             A MERN Stack developer. Passionate about creating responsive web
@@ -50,27 +50,42 @@ function Intro() {
         <img src={Vector2} alt="" />
         <img src={girl} alt="" />
         <motion.img
-        initial={{ left: "-36%" }}
-        whileInView={{ left: "-24%" }}
-        transition={transition}
-        src={glassesimoji} alt="" />
-        <motion.div 
-        initial={{ top: "-4%", left: "83%" }}
-        whileInView={{left: '75%'}}
-        transition={transition}
-        style={{ top: "-6%", left: "80%" }}>
+          initial={{ left: "-36%" }}
+          whileInView={{ left: "-24%" }}
+          transition={transition}
+          src={glassesimoji}
+          alt=""
+        />
+        <motion.div
+          initial={{ top: "-4%", left: "83%" }}
+          whileInView={{ left: "75%" }}
+          transition={transition}
+          style={{ top: "-6%", left: "80%" }}
+          className="floating-div"
+        >
           <FloatingDiv image={Crown} txt1="Web" txt2="Developer" />
         </motion.div>
         <motion.div
-        initial={{ top: "20rem", left: "3rem" }}
-        whileInView={{left: '-3rem'}}
-        transition={transition}
-         style={{ top: "19rem", left: "-2rem" }}>
+          initial={{ top: "20rem", left: "3rem" }}
+          whileInView={{ left: "-3rem" }}
+          transition={transition}
+          style={{ top: "19rem", left: "-2rem" }}
+          className="floating-div"
+        >
           <FloatingDiv image={thumbup} txt1="Best Design" txt2="Award" />
         </motion.div>
         {/* blur divs */}
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
-        <div className="blur" style={{ background: '#C1F5FF', top: '17rem', width: '21rem', height: '11rem', left: '-9rem'}}></div>
+        <div
+          className="blur"
+          style={{
+            background: "#C1F5FF",
+            top: "17rem",
+            width: "21rem",
+            height: "11rem",
+            left: "-9rem",
+          }}
+        ></div>
       </div>
     </div>
   );

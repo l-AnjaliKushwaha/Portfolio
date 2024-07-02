@@ -1,28 +1,26 @@
-import React from 'react'
-import './Skills.css'
-import HeartEmoji from '../../img/heartemoji.png';
-import Glasses from '../../img/glasses.png';
-import Humble from '../../img/humble.png';
-import Card from '../Card/Card.jsx';
-import Resume from '../Skills/Anjali kushwaha-Resume.pdf';
-import { themeContext } from '../../../Context.jsx';
-import { useContext } from 'react';
-import { motion } from 'framer-motion';
-
+import React from "react";
+import "./Skills.css";
+import HeartEmoji from "../../img/heartemoji.png";
+import Glasses from "../../img/glasses.png";
+import Humble from "../../img/humble.png";
+import Card from "../Card/Card.jsx";
+import Resume from "../Skills/Anjali kushwaha-Resume.pdf";
+import { themeContext } from "../../../Context.jsx";
+import { useContext } from "react";
+import { motion } from "framer-motion";
 
 function Skills() {
-  const transition = {duration: 1, type: 'spring'}
-   const theme = useContext(themeContext);
-   const darkMode = theme.state.darkMode;
+  const transition = { duration: 1, type: "spring" };
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
   return (
-    <div className="skills" id='Skills'>
+    <div className="skills" id="Skills">
       {/* left side */}
       <div className="awesome">
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>skills</span>
         <span style={{ color: darkMode ? "white" : "" }}>
-          HTML, CSS, JavaScript, React, Node.js, Express.js, MongoDB, <br />{" "}
-          Tailwind CSS, GSAP, Framer Motion.
+          HTML, CSS, JavaScript, React, Node.js, Express.js, <br />MongoDB, TailwindCSS, GSAP, Framer Motion.
         </span>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -41,7 +39,7 @@ function Skills() {
             emoji={HeartEmoji}
             heading={"Front-End Development"}
             detail={
-              "HTML & CSS, JavaScript, React.js, Redux Toolkit, Tailwind CSS Bootstrap "
+              "HTML & CSS, JavaScript, React.js, Redux Toolkit, Tailwind CSS, Bootstrap. "
             }
           />
         </motion.div>
@@ -55,7 +53,7 @@ function Skills() {
           <Card
             emoji={Glasses}
             heading={"Back-End Development"}
-            detail={"Node.js, Express.js, MongoDB RESTful API Development"}
+            detail={"Node.js, Express.js, MongoDB, RESTful API Development."}
           />
         </motion.div>
         {/* 3rd card */}
@@ -69,7 +67,7 @@ function Skills() {
             emoji={Humble}
             heading={"Additional Skills"}
             detail={
-              "Animation Libraries: GSAP, Framer Motion, State Management: Redux Toolkit, Version Control: Git"
+              "Animation Libraries: GSAP, Framer Motion, State Management: Redux Toolkit, Version Control: Git."
             }
           />
         </motion.div>
@@ -82,4 +80,4 @@ function Skills() {
   );
 }
 
-export default Skills
+export default Skills;

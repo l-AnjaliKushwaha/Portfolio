@@ -43,6 +43,28 @@
             flex: 2;
 }
 
+
+@media screen and (max-width: 1200px){
+  .n-name{
+            font-size: 1.5rem;
+            font-weight: bold;
+}
+
+}
+
+
+@media (max-width: 768px) {
+  .n-button{
+            display: none;
+  }
+  .n-left{
+            flex: 1;
+            align-items: center;
+            display: flex;
+            gap: 6rem;
+}
+}
+
 @media screen and (max-width: 480px){
   .n-list{
             display: none;

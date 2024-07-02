@@ -77,6 +77,28 @@
             top: 8rem;
 }
 
+@media (max-width: 768px){
+            .about{
+                       flex-direction: column;
+                       height: 50rem;
+                       padding: 0;
+                       gap: 7rem;
+            }
+            .a-right{
+                        display: flex;
+                        align-items: flex-start;
+                        justify-content: start;
+                        transform: scale(1);
+                        margin-bottom: 0;
+            }
+             .a-mainCircle{
+                        left: 5rem;
+            }
+             .a-backCircle{
+                        left: 14rem !important;
+            }
+}
+
 @media screen and (max-width: 480px) {
             .about{
                        flex-direction: column;

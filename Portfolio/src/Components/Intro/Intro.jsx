@@ -55,6 +55,7 @@ function Intro() {
           transition={transition}
           src={glassesimoji}
           alt=""
+          className="emoji"
         />
         <motion.div
           initial={{ top: "-4%", left: "83%" }}

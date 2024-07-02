@@ -19,7 +19,7 @@ function About() {
         <span style={{ color: darkMode ? "white" : "" }}>About Me</span>
         <span>MERN Stack Developer</span>
         <span style={{ color: darkMode ? "white" : "" }}>
-          I'm a MERN Stack Developer with a passion for building
+          I'm a MERN Stack Developer with a passion for <br /> building
           scalable, efficient, and user-friendly
         </span>
         <button className="button s-button">Hire me</button>

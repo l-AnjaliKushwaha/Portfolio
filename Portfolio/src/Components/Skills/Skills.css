@@ -1,72 +1,101 @@
-.skills{
-            padding: 0 3rem 0 3rem;
-            display: flex;
-            height: 70vh;
-            margin-bottom: 8rem;
-            margin-top: 9rem;
-            margin-bottom: 13rem;
+.skills {
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  height: 70vh;
+  margin-bottom: 8rem;
+  margin-top: 9rem;
+  margin-bottom: 13rem;
 }
 
-.awesome{
-            display: flex;
-            flex-direction: column;
-            position: relative;
+.awesome {
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
-.awesome>:nth-child(1){
-            color: var(--black);
-            font-size: 3rem;
-            font-weight: bold;
+.awesome > :nth-child(1) {
+  color: var(--black);
+  font-size: 3rem;
+  font-weight: bold;
 }
-.awesome>:nth-child(2){
-            color: var(--orange);
-            font-size: 2.8rem;
-            font-weight: bold;
+.awesome > :nth-child(2) {
+  color: var(--orange);
+  font-size: 2.8rem;
+  font-weight: bold;
 }
 
-.awesome>:nth-child(3){
-            color: var(--gray);
-            font-size: 20px;
-            margin-top: 1rem;
-            line-height: 1.5rem;
+.awesome > :nth-child(3) {
+  color: var(--gray);
+  font-size: 20px;
+  margin-top: 1rem;
+  line-height: 1.5rem;
 }
-.s-button{
-            width: 8rem;
-            height: 2rem;
-            margin-top: 4rem;
+.s-button {
+  width: 8rem;
+  height: 2rem;
+  margin-top: 4rem;
 }
-.cards{
-            position: relative;
+.cards {
+  position: relative;
 }
-.cards>*{
-            position: absolute;
+.cards > * {
+  position: absolute;
 }
 
 /* blur */
 
-.s-blur2{
-            left: 14rem;
-            top: 8rem;
+.s-blur2 {
+  left: 14rem;
+  top: 8rem;
 }
-.s-blur1{
-            top: 13rem;
-            left: -18rem;
+.s-blur1 {
+  top: 13rem;
+  left: -18rem;
+}
+
+@media (max-width: 768px) {
+  .skills {
+    margin-top: 0;
+    flex-direction: column;
+    gap: 5rem;
+    height: 66rem;
+    padding: 0;
+  }
+  .awesome > :nth-child(3) {
+    font-size: 1.3rem;
+    line-height: 1.3;
+  }
+  .s-button{
+            width: 8rem;
+            height: 3rem;
+            margin-top: 4rem;
+            font-size: 1rem;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 17rem;
+  }
+  .cards > * {
+    position: static;
+  }
+
 }
 
 @media screen and (max-width: 480px) {
-            .skills{
-                        margin-top: 0;
-                        flex-direction: column;
-                        gap: 5rem;
-                        height: 66rem;
-                        padding: 0;
-            }
-            .cards{
-                        display: flex;
-                        flex-direction: column;
-                        gap: 17rem;
-            }
-            .cards>*{
-                        position: static;
-            }
+  .skills {
+    margin-top: 0;
+    flex-direction: column;
+    gap: 5rem;
+    height: 66rem;
+    padding: 0;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 17rem;
+  }
+  .cards > * {
+    position: static;
+  }
 }

@@ -77,6 +77,17 @@
             top: 8rem;
 }
 
+@media (max-width: 1200px){
+             .about{
+                       flex-direction: column;
+                       height: 50rem;
+                       padding: 0;
+                       gap: 7rem;
+                       margin-left: 4rem;
+            }
+            
+}
+
 @media (max-width: 768px){
             .about{
                        flex-direction: column;

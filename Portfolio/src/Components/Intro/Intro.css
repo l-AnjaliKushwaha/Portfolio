@@ -95,6 +95,16 @@
   filter: blur(72px);
 }
 
+@media (max-width: 1200px){
+  .intro {
+    flex-direction: column;
+    margin: 3rem;
+    padding: 3rem;
+    height: 60rem;
+    gap: 7rem;
+  }
+}
+
 /* Responsive Styles for max-width 768px */
 @media (max-width: 768px) {
   .intro {

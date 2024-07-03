@@ -22,7 +22,7 @@ function Project() {
   return (
     <div className="project" id="Projects">
       {/* heading */}
-      <span style={{color: darkMode? 'white': ''}}>Recent Projects</span>
+      <span style={{ color: darkMode ? "white" : "" }}>Recent Projects</span>
       <span>Portfolio</span>
 
       {/* slider */}
@@ -36,7 +36,9 @@ function Project() {
         // pagination={{ clickable: true }}
       >
         <SwiperSlide>
-          <img src={Project1} alt="Project 1" />
+          <a href="https://l-anjalikushwaha.github.io/Anon-eCommerce/">
+            <img src={Project1} alt="Project 1" />
+          </a>
         </SwiperSlide>
 
         <SwiperSlide>

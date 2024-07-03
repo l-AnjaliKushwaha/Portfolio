@@ -80,7 +80,7 @@
             top: 8rem;
 }
 
-@media (max-width: 1200px){
+/* @media (max-width: 1200px){
              .about{
                        flex-direction: column;
                        height: 50rem;
@@ -90,9 +90,9 @@
             .awesome>button{
                         margin-left: 4rem;
             }
-}
+} */
 
-@media (max-width: 768px){
+/* @media (max-width: 768px){
             .about{
                        flex-direction: column;
                        height: 50rem;
@@ -112,7 +112,7 @@
              .a-backCircle{
                         left: 14rem !important;
             }
-}
+} */
 
 @media screen and (max-width: 480px) {
             .about{

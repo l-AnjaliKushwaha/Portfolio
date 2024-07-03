@@ -53,7 +53,7 @@
   left: -18rem;
 }
 
-@media (max-width: 1200px){
+/* @media (max-width: 1200px){
   .skills {
     margin-top: 0;
     flex-direction: column;
@@ -81,9 +81,9 @@
   margin-left: 4rem;
 }
 
-}
+} */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .skills {
     margin-top: 0;
     flex-direction: column;
@@ -101,7 +101,7 @@
     position: static;
   }
 
-}
+} */
 
 @media screen and (max-width: 480px) {
   .skills {

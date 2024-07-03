@@ -21,14 +21,14 @@
             gap: 2rem;
 }
 
-@media (max-width: 768px){
+/* @media (max-width: 768px){
  .footer>img{
   height: 25rem;
  }
   .f-content{
     transform: scale(1);
   }
-}
+} */
 
 @media screen and (max-width: 480px){
   .f-content{

@@ -46,16 +46,16 @@
   color: var(--orange);
 }
 
-@media screen and (max-width: 1200px){
+/* @media screen and (max-width: 1200px){
   .n-name{
             font-size: 1.5rem;
             font-weight: bold;
 }
 
-}
+} */
 
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .n-button{
             display: none;
   }
@@ -65,7 +65,7 @@
             display: flex;
             gap: 6rem;
 }
-}
+} */
 
 @media screen and (max-width: 480px){
   .n-list{

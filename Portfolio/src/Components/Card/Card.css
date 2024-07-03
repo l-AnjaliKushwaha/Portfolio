@@ -24,7 +24,7 @@
   margin-bottom: -2rem;
 }
 
-@media screen and (max-width: 786px) {
+/* @media screen and (max-width: 786px) {
   .card {
     width: auto;
     margin: 1rem;
@@ -38,7 +38,7 @@
     line-height: 1.3rem;
   }
   
-}
+} */
 
 @media screen and (max-width: 480px) {
   .card {

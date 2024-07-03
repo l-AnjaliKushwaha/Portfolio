@@ -33,7 +33,10 @@ function Intro() {
             applications using modern JavaScript technologies.
           </span>
         </div>
-        <button className=" button i-button">Hire me</button>
+         <Link to="Contact" smooth={true} spy={true}>
+          <button className="button i-button">Hire me</button>
+        </Link>
+      
         <div className="i-icons">
           <a href="https://github.com/l-AnjaliKushwaha">
             <img src={Github} alt="Github-Icon" />

@@ -27,6 +27,7 @@
 @media screen and (max-width: 786px) {
   .card {
     width: auto;
+    margin: 1rem;
   }
    .card span:nth-of-type(1) {
     font-size: 28px;

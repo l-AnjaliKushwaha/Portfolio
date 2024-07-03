@@ -8,6 +8,7 @@ import nodepng from "../../img/node.png";
 import { themeContext } from "../../../Context";
 import { useContext } from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-scroll";
 
 function About() {
   const theme = useContext(themeContext);
@@ -19,10 +20,22 @@ function About() {
         <span style={{ color: darkMode ? "white" : "" }}>About Me</span>
         <span>MERN Stack Developer</span>
         <span style={{ color: darkMode ? "white" : "" }}>
-          I'm a MERN Stack Developer with a passion for <br /> building
-          scalable, efficient, and user-friendly
+          I’m a 2024 B.Tech graduate in Computer Science from Sagar
+          <br />
+          Institute of Research and Technology, with a CGPA of 8.67. <br /> I
+          specialize in the MERN stack (MongoDB, Express, React, Node)
+          <br /> and have a solid grasp of HTML, CSS, and JavaScript. I also
+          have <br /> experience with Tailwind CSS, Bootstrap, GSAP, and Framer
+          Motion <br /> for creating cool animations. I love building responsive
+          and visually <br /> appealing web apps and am always eager to learn
+          and take
+          <br />
+          on new challenges in web development.
         </span>
-        <button className="button s-button">Hire me</button>
+
+        <Link to="Contact" smooth={true} spy={true}>
+          <button className="button i-button">Hire me</button>
+        </Link>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
 

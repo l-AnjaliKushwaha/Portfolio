@@ -13,6 +13,7 @@ import "./Intro.css";
 import { themeContext } from "../../../Context.jsx";
 import { useContext } from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-scroll";
 
 function Intro() {
 

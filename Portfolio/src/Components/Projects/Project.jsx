@@ -42,35 +42,51 @@ function Project() {
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={Project2} alt="Project 2" />
+          <a href=" https://l-anjalikushwaha.github.io/Grilli/">
+            <img src={Project2} alt="Project 2" />
+          </a>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={Project3} alt="Project 3" />
+          <a href="https://l-anjalikushwaha.github.io/Foodie/">
+            <img src={Project3} alt="Project 3" />
+          </a>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={Project4} alt="Project 4" />
+          <a href="https://job-app-hirer.vercel.app/">
+            <img src={Project4} alt="Project 4" />
+          </a>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={Project5} alt="Project 5" />
+          <a href="https://l-anjalikushwaha.github.io/Tourest/">
+            <img src={Project5} alt="Project 5" />
+          </a>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={Project6} alt="Project 6" />
+          <a href="https://l-anjalikushwaha.github.io/Responsive-watches-website/">
+            <img src={Project6} alt="Project 6" />
+          </a>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={Project7} alt="Project 6" />
+          <a href="https://real-estate-website-drab-kappa.vercel.app">
+            <img src={Project7} alt="Project 7" />
+          </a>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={Project8} alt="Project 8" />
+          <a href="https://l-anjalikushwaha.github.io/Footcap/">
+            <img src={Project8} alt="Project 8" />
+          </a>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={Project9} alt="Project 9" />
+          <a href="https://l-anjalikushwaha.github.io/Google-Meet/">
+            <img src={Project9} alt="Project 9" />
+          </a>
         </SwiperSlide>
       </Swiper>
     </div>

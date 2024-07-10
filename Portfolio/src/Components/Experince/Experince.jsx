@@ -15,7 +15,7 @@ function Experince() {
         <span>B.Tech</span>
       </div>
       <div className="achievement">
-        <div className="circle">8.76</div>
+        <div className="circle">7.77</div>
         <span>CGPA</span>
         <span>8th Semester</span>
       </div>

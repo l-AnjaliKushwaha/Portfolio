@@ -1,8 +1,8 @@
 import React from "react";
-import Github from '../../img/github.png';
-import LinkedIn from '../../img/linkedin.png';
-import Instagram from '../../img/instagram.png';
-import Vector1 from '../../img/Vector1.png';
+import Github from "../../img/github.png";
+import LinkedIn from "../../img/linkedin.png";
+import Instagram from "../../img/instagram.png";
+import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
 import girl from "../../img/girl.png";
 import thumbup from "../../img/thumbup.png";
@@ -16,12 +16,11 @@ import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 
 function Intro() {
-
   const transition = { duration: 2, type: "spring" };
 
-   const theme = useContext(themeContext);
-   const darkMode = theme.state.darkMode;
-  
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
     <div className="intro">
       <div className="i-left">
@@ -33,10 +32,10 @@ function Intro() {
             applications using modern JavaScript technologies.
           </span>
         </div>
-         <Link to="Contact" smooth={true} spy={true}>
+        <Link to="Contact" smooth={true} spy={true}>
           <button className="button i-button">Hire me</button>
         </Link>
-      
+
         <div className="i-icons">
           <a href="https://github.com/l-AnjaliKushwaha">
             <img src={Github} alt="Github-Icon" />

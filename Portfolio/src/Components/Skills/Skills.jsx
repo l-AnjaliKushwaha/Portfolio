@@ -4,7 +4,7 @@ import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import Card from "../Card/Card.jsx";
-import Resume from "../Skills/Anjali kushwaha-Resume.pdf";
+import Resume from "../Skills/AnjaliKushwaha MERN Stack Resume.pdf";
 import { themeContext } from "../../../Context.jsx";
 import { useContext } from "react";
 import { motion } from "framer-motion";

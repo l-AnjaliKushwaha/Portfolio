@@ -134,17 +134,24 @@
     margin: 2rem;
     height: 64rem;
   }
-
   .i-right {
     margin-top: 2rem;
     transform: scale(0.5);
-    left: -3rem;
+    left: -4rem;
   }
+
+  .i-right > :nth-child(3) {
+    transform: scale(0.6);
+    top: -20%;
+    left: -70%;
+  }
+  
 
   .i-right .blur {
     display: none;
   }
   .floating-div:nth-of-type(1) {
     top: -2rem !important;
+    left: 18rem !important;
   }
 }
